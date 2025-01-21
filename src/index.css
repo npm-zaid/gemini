@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  
+
+body{
+
+box-sizing: border-box;
+}
+
+.scroller::-webkit-scrollbar{
+  width: 10px;
+
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+ display: none;
+}
+ 
+/* Handle */
+.scroller::-webkit-scrollbar-thumb{
+  background: #27272a; 
+  border-radius: 10px;
+}
+
+
+.load{
+animation: loader 2s infinite linear;
+}
+
+@keyframes loader{
+0%{
+  background-position: -1024px 0px;
+}
+100%{
+  background-position: 1024px 0px;
+}
+
+}
+
+}
+
+
