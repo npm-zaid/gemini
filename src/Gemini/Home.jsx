@@ -7,6 +7,7 @@ import { Context } from "./Context";
 
 const Home = () => {
 
+  let name = prompt("Enter your name")
   const {onsent,input,setinput,showResult,recentPrompt,resultData,loading}=useContext(Context)
 
   const [expand, setexpand] = useState(false);
@@ -62,7 +63,7 @@ const Home = () => {
             {
             !showResult?<div className="upper mt-20">
               <h1 className="text-[13vw] sm:text-[4.4vw] font-[600] bg-gradient-to-r from-[#4b90ff]  to-[#ff5546] inline-block text-transparent bg-clip-text">
-                Hello, Zaid
+                Hello,{name}
               </h1>
               <p className="text-[10vw] sm:text-[4.4vw] font-[600] leading-[3rem] text-[#444746]">
                 How can I help you today?
