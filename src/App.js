@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../src/Gemini/Home'
+import Home from '../src/Gemini/Home';
 
 
 
@@ -8,12 +8,14 @@ import Home from '../src/Gemini/Home'
 
 const App = () => {
 
-
+ 
 
   return (
-    <Home/>
+  
+  <Home/>
+ 
+
   )
 }
 
 export default App;
-
