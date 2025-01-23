@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './RealState/pages/Home';
+import Home from '../src/Gemini/Home'
 
 
 
@@ -8,14 +8,12 @@ import Home from './RealState/pages/Home';
 
 const App = () => {
 
- 
+
 
   return (
-  <div className='px-[4vw]'>
-  <Home/>
-  </div>
-
+    <Home/>
   )
 }
 
 export default App;
+
